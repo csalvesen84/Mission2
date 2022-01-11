@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Connor's IS 413 Website</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/french_fries_chips_potatoes_food_fast_food_icon_207983.ico" />
+</head>
+<body>
+    <h1>Connor Salvesen</h1>
+    <img src="img/IMG_3058.jpg" />
+    <p>This is a picture of me doing something I really really enjoy! Coding ASP.NET</p>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" width="500px">
+                        What I Hope To Get Out of This Class
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <p>
+                        What I am hoping to get out of IS 413: Personally, I am not a huge fan of web development. I find it just
+                        a little tedious at times. I'm hoping to learn some techniques in this class to help me enjoy it just a bit
+                        more because of added simplicity. Hopefully through doing these projects I will get some valuable skills as well
+                        that would help a future employer be more interested in hiring me.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Top 3 Jobs I Am Interested In Post-Graduation
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li>Security Risk Advisor</li>
+                        <li>Data Analyst</li>
+                        <li>Developer</li>
+                        <li>Basically any position I'd love to do consulting in some capacity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        IS 413 Grade Calculator
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <form>
+                        <label>Assignments:</label>
+                        <input id="assignments" type="number" min="0" max="100" />
+                        <label>%</label><br />
+                        <label>Group Project:</label>
+                        <input id="project" type="number" min="0" max="100" />
+                        <label>%</label><br />
+                        <label>Quizzes:</label>
+                        <input id="quizzes" type="number" min="0" max="100" />
+                        <label>%</label><br />
+                        <label>Exams:</label>
+                        <input id="exams" type="number" min="0" max="100" />
+                        <label>%</label><br />
+                        <label>Intex:</label>
+                        <input id="intex" type="number" min="0" max="100" />
+                        <label>%</label><br /><br />
+                        <button type="button" id="calculate" class="btn btn-primary">Calculate Grades!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+</body>
+</html>
